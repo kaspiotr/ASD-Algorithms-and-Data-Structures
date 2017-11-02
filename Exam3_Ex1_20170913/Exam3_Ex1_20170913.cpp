@@ -94,12 +94,12 @@ int largestInstersection(double a[], double b[], int n){
         j++;
     }
 
-    //printTabPoint(A,2*n); debuging
+    //printTabPoint(A,2*n); debugging
 
     //sortowanie tablicy Point[]
     QuickSort(A,0,2*n-1);
 
-    //printTabPoint(A,2*n); debuging
+    //printTabPoint(A,2*n); debugging
 
     int counterMax = 0, counter = 0;
 
