@@ -4,7 +4,7 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 
 ## Seminars
 ### 1st
-- [Zad1](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Sem1_Ex1_20170103 "Sem1_Ex1_20170103") **[other]** Sorting using the insertion sort algorithm 
+- [Zad1](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Sem1_Ex1_20170103 "Sem1_Ex1_20170103") **[sorting]** Sorting using the insertion sort algorithm 
 ### 2nd
 
 ### 3rd
@@ -12,3 +12,4 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 ## Colloquiums
 
 ## Exams
+- [Zad1_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exam3_Ex1_20170913 "Exam3_Ex1_20170913") **[sorting]** Finds largest number of intersecting divisions
