@@ -1,0 +1,7 @@
+[2pkt.] Zadanie 1. Dany jest ciag [a1,b1],...,[an,bn] przedzialow domnietych. Prosze zaimplementowac funkcje:
+
+int lergestInstersection(double a[], double b[], n);
+
+ktora zwraca najwieksza liczbe przedzialow, ktore maja niepuste przeciecie. Np. dla przedzialow
+[1,10],[6,12],[2,5],[9,11] odpowiedz to 3 (poniewaz [1,10] and [6,12] and [9,11] = [9,10]). Prosze takze
+opisac algorytm w kilku zdaniach i podac jego zlozonosc czasowa.
