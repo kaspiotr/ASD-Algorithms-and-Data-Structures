@@ -1,0 +1,54 @@
+//author: @kaspiotr (Piotr Kasprzyk)
+
+Tresc:
+[2pkt.] Zadanie 2. Rozwazmy tablice haszujace z adresowaniem otwartym i liniowym rozwiazywaniem konfliktow.
+Zakladamy, ze sprawdzenie czy dany alement nalezy do takiej tablicy zajmuje czas staly. Mamy dwie tablice,
+A i B, obie majace n pol i przechowujace k elementow (k <= n). Przy standardowej implementacji sprawdzenie,
+czy takie tablice zawieraja dokladnie takie same elementy zajmuje czas O(n). Prosze zaproponowac rozszerzenie
+tej struktury danych tak, by nie pogorszyla sie zlozonosc operacji wstawiania, usuwania i sprawdzania
+przynaleznosci elementow, ale by dalo sie sprawdzac czy dwie tablice maja dokladnie takie same elementy
+w czasie O(k). Prosze opisac algorytm porownywania tablic.
+
+
+Rozwiazanie (2/2pkt.):
+Mamy tablice z haszowaniem, w ktorej niektore komorki sa wypelnione a inne nie. Teraz, zeby sprawdzic czy w innej
+tablicy z haszowaniem wystepuja te same elementy co w danej musielibysmy przejrzec jedna i druga tablice.
+Taka operacja zajelaby czas O(n) (przegladniecie tablic A[] i B[] od pozycji 0 do pozycji n-1).
+
+Zeby rozwiazac ten problem mozna stworzyc liste dwukierunkowa elementow tablicy A[], poprzez rozszerzenie tablicy
+A[] w taki sposob, zeby kazde jej pole mialo po dwa wskazniki: prev (wskazujacy na poprzedni element na liscie
+dwukierunkowej) oraz next (wskazujacy na nastepny element na liscie dwukierunkowej).
+Z zewnatrz mamy wskaznik na poczatek listy i wystarczy ja przejrzec -co zajmnie czas O(k).
+
+Jesli dodajemy nowy element do tej listy dwukierunkowej, to wstawiamy go w wyszukane miejsce,
+a poniewaz jest to lista dwukierunkowa, to mozemy sobie zaktualizowac latwo wskaznik next wstawianego
+wlasnie elementu jako prev elementu nastepnego na liscie, a wksazniki prev wstawianego elementu
+jako next elementu, ktory bedzie go na liscie poprzedzal.
+Zlozonosc samej operacji wstawiania zajmuje czas staly O(1).
+
+Jesli usuwamy element z tej listy dwukierunkowej, to przepinamy wskaznik next jego poprzednika tak aby wskazywal
+element, ktory wskazuje wskaznik next usuwanego elementu. Natomiast wskaznik prev elementu znajdujacego sie za
+elementem usuwanym na liscie dwukierunkowej aktualizujemy tak aby wskazywal na to na co wskazuje wskaznik prev
+elementu usuwanego. Po aktualizacji tych dwoch wskaznikow usuwamy wyszukiwany element z pamieci.
+Zlozonosc samej operacji usuwania elementu zajmuje czas staly O(1).
+
+Liste taka tworzymy na biezaco, jako czesc algorytmu wstawiania. Po tym jak wstawimy element tablicy
+na odpowiednie miejsce aktualizujemy liste dwukierunkowa.
+Na poczatku, dla kazdego elementu tablicy -jego wskaznik prev pokazuje na poprzedni element, ktory nie jest pusty
+(nie jest NULL'em), a jego wskaznik next pokazuje na pierwszy element tablicy za nim, ktory nie jest pusty
+(nie jest NULL'em). Dzieki temu, juz na poczatku tworzenia listy dwukierunkowej, wiemy jaki jest poprzedni
+i nastepny element na liscie przy wstawianiu danego elementu do listy.
+
+Algorytm porownywanie tablic A[] i B[]:
+1) Wstawaiamy elementy do tablic A[] i B[] jednoczesnie tworzac listy dwukierunkowe w wyzej opisany sposob.
+2) Przechodzimy kazda z k elementowych list dwykierunkowych (jedna odpowiadajaca tablicy A[] i druga odpowiadajaca
+   tablicy B[]). Poniewaz kazda z tablic, A[] i B[], sa tworzone na podstawie tej samej funckji haszujacej, to
+   wystarczy przejsc kazda z k-elementowych list raz porownujac kolejne elementy.
+3) Jesli algorytm w czasie sprawdzania wykryje roznice na pewnym etapie, to konczy dzialanie i zwraca wynik,
+   mowiacy o tym ze listy nie skladaja sie z tych samych elementow (np. wartosc logiczna false).
+   Jesli natomiast algorytm przejdzie przez listy dwykierounkowe odpowiadajace tablicom A[] i B[] i nie wykryje
+   po drodze zadnej roznicy, to zwraca wynik mowiacy o tym, ze listy skladaja sie z tych samych elementow
+   (np. wartosc logiczna true).
+
+Zlozonosc czasowa algorytmu porownywania tablic A[] i B[] wyniesie wowczas O(k), bo po tyle elementow licza obie
+listy dwukierunkowe.

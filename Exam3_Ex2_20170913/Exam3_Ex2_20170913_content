@@ -1,0 +1,7 @@
+[2pkt.] Zadanie 2. Rozwazmy tablice haszujace z adresowaniem otwartym i liniowym rozwiazywaniem konfliktow.
+Zakladamy, ze sprawdzenie czy dany alement nalezy do takiej tablicy zajmuje czas staly. Mamy dwie tablice,
+A i B, obie majace n pol i przechowujace k elementow (k <= n). Przy standardowej implementacji sprawdzenie,
+czy takie tablice zawieraja dokladnie takie same elementy zajmuje czas O(n). Prosze zaproponowac rozszerzenie
+tej struktury danych tak, by nie pogorszyla sie zlozonosc operacji wstawiania, usuwania i sprawdzania
+przynaleznosci elementow, ale by dalo sie sprawdzac czy dwie tablice maja dokladnie takie same elementy
+w czasie O(k). Prosze opisac algorytm porownywania tablic.
