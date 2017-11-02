@@ -13,3 +13,4 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 
 ## Exams
 - [Zad1_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exam3_Ex1_20170913 "Exam3_Ex1_20170913") **[sorting]** Finds largest number of intersecting divisions
+- [Zad2_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exam3_Ex2_20170913 "Exam3_Ex2_20170913") **[descriptive]** Algorithm that checks if two hash tables have the same elements
