@@ -1,7 +1,7 @@
 //author: @kaspiotr (Piotr Kasprzyk)
 
 /*
-Zad.1, Cw.1, ASD, 3.01.17
+Zad.1, Cw.1, ASD, 1.03.17
 Zaimplementowac sortowanie przez wstawianie
  */
 
@@ -9,32 +9,32 @@ Zaimplementowac sortowanie przez wstawianie
 
 using namespace std;
 
-void printTab(int A[], int n){
-    for(int i=0; i<n; i++){
-        cout<<A[i]<<"\t";
+void printTab(int A[], int n) {
+    for (int i = 0; i < n; i++) {
+        cout << A[i] << "\t";
     }
-    cout<<endl;
+    cout << endl;
 }
 
-void insertSort(int A[], int n){
+void insertSort(int A[], int n) {
     int tmp, j; //j-indeks wskazujacy karte biezaca
 
-    for(int i=1; i<n; i++){
+    for (int i = 1; i < n; i++) {
         tmp = A[i];
-        j = i-1;
+        j = i - 1;
 
-        while(j>=0 && A[j]>tmp){
-            A[j+1]=A[j];
+        while (j >= 0 && A[j] > tmp) {
+            A[j + 1] = A[j];
             j--;
         }
-        A[j+1]=tmp;
+        A[j + 1] = tmp;
     }
 }
 
 int main() {
 
     int N = 5;
-    int tab[]={5,2,4,0,1,3};
+    int tab[] = {5, 2, 4, 0, 1, 3};
 
     printTab(tab, N);
 
