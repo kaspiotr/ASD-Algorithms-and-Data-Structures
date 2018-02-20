@@ -9,6 +9,7 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 ## Seminars 2016/2017
 ### 1st
 - [Zad1](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Sem1_Ex1_20170103 "Sem1_Ex1_20170103") **[sorting]** Sorting using the insertion sort algorithm 
+- [Zad2](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Sem1_Ex2_20170301 "Sem1_Ex2_20170301") **[linked lists]** Removes node of largest value from a given linked list
 ### 2nd
 
 ### 3rd
