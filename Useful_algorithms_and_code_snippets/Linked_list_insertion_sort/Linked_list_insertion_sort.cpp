@@ -12,30 +12,30 @@ struct Node {
 };
 
 void printList(Node *first) {
-    while(first != NULL) {
-        cout<<first->v<<"\t";
+    while (first != NULL) {
+        cout << first->v << "\t";
         first = first->next;
     }
-    cout<<endl;
+    cout << endl;
 }
 
-void insertionSort(Node* &first) {
+void insertionSort(Node *&first) {
 
-    if(first == NULL || first->next == NULL) return;
+    if (first == NULL || first->next == NULL) return;
 
     Node *last = first, *curr = first->next;
     Node *p, *prev;
 
-    while(curr != NULL) {
+    while (curr != NULL) {
         p = first, prev = NULL;
-        while(p != NULL && p != curr && p->v < curr->v) {
+        while (p != NULL && p != curr && p->v < curr->v) {
             prev = p;
             p = p->next;
         }
 
-        if(p == curr) {
+        if (p == curr) {
             last = curr;
-        } else if(p == first) {
+        } else if (p == first) {
             last->next = curr->next;
             curr->next = first;
             first = curr;
