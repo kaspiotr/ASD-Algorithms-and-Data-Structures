@@ -8,8 +8,8 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 
 ## Seminars 2016/2017
 ### 1st
-- [Zad1](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Sem1_Ex1_20170103 "Sem1_Ex1_20170103") **[sorting]** Sorting using the insertion sort algorithm 
-- [Zad2](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Sem1_Ex2_20170301 "Sem1_Ex2_20170301") **[linked lists]** Removes node of largest value from a given linked list
+- [Zad1](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem1_Ex1_20170103 "Sem1_Ex1_20170103") **[sorting]** Sorting using the insertion sort algorithm 
+- [Zad2](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem1_Ex2_20170301 "Sem1_Ex2_20170301") **[linked lists]** Removes node of largest value from a given linked list
 ### 2nd
 
 ### 3rd
@@ -19,5 +19,5 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 ## Colloquiums
 
 ## Exams
-- [Zad1_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exam3_Ex1_20170913 "Exam3_Ex1_20170913") **[sorting]** Finds largest number of intersecting divisions
-- [Zad2_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exam3_Ex2_20170913 "Exam3_Ex2_20170913") **[descriptive]** Algorithm that checks if two hash tables have the same elements
+- [Zad1_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exams/Exam3_Ex1_20170913 "Exam3_Ex1_20170913") **[sorting]** Finds largest number of intersecting divisions
+- [Zad2_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exams/Exam3_Ex2_20170913 "Exam3_Ex2_20170913") **[descriptive]** Algorithm that checks if two hash tables have the same elements
