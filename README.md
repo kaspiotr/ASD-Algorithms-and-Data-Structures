@@ -10,6 +10,7 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 ### 1st
 - [Zad1_20170301](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem1_Ex1_20170301 "Sem1_Ex1_20170301") **[sorting]** Sorting using the insertion sort algorithm 
 - [Zad2a_20140305](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem1_Ex2a_20140305 "Sem1_Ex2a_20140305") **[linked lists]** Removes node of largest value from a given linked list
+- [Zad5_20170301](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem1_Ex5_20170301 "Sem1_Ex5_20170301") **[linked lists]** Reversing of a given linekd list
 ### 2nd
 
 ### 3rd
