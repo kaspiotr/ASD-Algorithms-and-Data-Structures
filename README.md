@@ -16,7 +16,12 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 ### 3rd
 
 ## Seminars 2017/2018
-
+### 1st
+- [Zad1](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex1_20180301 "Ex1_20180301") **[sorting]**
+- [Zad2](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex2_20180301 "Ex2_20180301") **[sorting]** **[linked lists]**
+- [Zad3](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex3_20180301 "Ex3_20180301") **[descriptive]**
+- [Zad4](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex4_20180301 "Ex4_20180301") 
+- [Zad5_dodatkowe](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex5_20180301_extra "Ex5_20180301_extra") **[linked lists]**
 ## Colloquiums
 
 ## Exams
