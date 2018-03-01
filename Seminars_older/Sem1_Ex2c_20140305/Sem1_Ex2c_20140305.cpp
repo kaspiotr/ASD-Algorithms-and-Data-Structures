@@ -1,8 +1,9 @@
 //author: @kaspiotr (Piotr Kasprzyk)
 
 /*
-Zad.2, Cw.1, ASD, 1.03.17
+Zad.2c, Cw.1, ASD, 1.03.17
 Prosze zaimplementowac znajdowanie i usuwanie elementu najwiekszego z nieposortowanej listy jednokierunkowej liczb
+z wartownikiem
  */
 
 #include <iostream>
