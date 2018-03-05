@@ -1,0 +1,3 @@
+Zad.3 Cw.2 ASD 8.03.14
+Funckcja przyjmuje jako argumenty dwie niepuste listy jednokierunkowe bez wartownikow. Listy te sa posortowane.
+Funkcja ma zwrocic glowe i ogon listy jednokierunkowej powstalej po ich zmergeowaniu.

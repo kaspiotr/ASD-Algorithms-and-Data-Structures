@@ -1,4 +1,3 @@
-Zad.1 Cw.2 ASD 12.03.14
-
+Zad.1 Cw.2 ASD 12.03.14 i 8.03.17
 Zaimplementowac funckje Merge:
 void Merge(int A[], int B[], int i, int j, int k)
