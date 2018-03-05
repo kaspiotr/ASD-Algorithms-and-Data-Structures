@@ -30,7 +30,9 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 - [Zad3](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex3_20180301 "Ex3_20180301") **[descriptive]**
 - [Zad4](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex4_20180301 "Ex4_20180301") 
 - [Zad5_dodatkowe](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex5_20180301_extra "Ex5_20180301_extra") **[linked lists]** Reverses given linked list
-## Colloquiums
+## Collocuia
+- [Zad1_kol1]
+
 
 ## Exams
 - [Zad1_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exams/Exam3_Ex1_20170913 "Exam3_Ex1_20170913") **[sorting]** Finds largest number of intersecting divisions
