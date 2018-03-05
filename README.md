@@ -12,6 +12,11 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 - [Zad2a_20140305](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem1/Ex2a_20140305 "Ex2a_20140305") **[linked lists]** Removes node of largest value from a given linked list
 - [Zad5_20170301](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem1/Ex5_20170301 "Ex5_20170301") **[linked lists]** Reversing of a given linked list
 ### 2nd
+- [Zad1_20143012](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem2/Sem2_Ex1_20140312 "Sem2_Ex1_20140312") 
+- [Zad2_20143012](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem2/Sem2_Ex2_20140312 "Sem2_Ex2_20140312")
+- [Zad3_20143012](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem2/Sem2_Ex3_20140312 "Sem2_Ex3_20140312")
+- [Zad4_20143012](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem2/Sem2_Ex4_20140312 "Sem2_Ex4_20140312")
+- [Zad5_20143012](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars_older/Sem2/Sem2_Ex5_20140312 "Sem2_Ex5_20140312")
 
 ### 3rd
 
