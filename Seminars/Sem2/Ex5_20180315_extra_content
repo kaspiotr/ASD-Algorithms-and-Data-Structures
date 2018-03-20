@@ -1,0 +1,22 @@
+Zad5
+Mamy cieknący kran, z którego spływa woda o objentości A
+Posiadamy również k kubełków, każdy o pojemności 1m^3
+Każde naczynie ma określoną wysokość h i podstawe y.
+Ile naczyń zostanie w pełni napełnionych.
+
+ ________________
+^           |    |
+|           \ A  /
+|             ;;
+|             ;;  
+|  [''] y+h
+|  [  ]
+|  [  ]       ['']
+|  [__] y     [  ]
+|             [__]
+|
+|
+|
+|
+|
+|
