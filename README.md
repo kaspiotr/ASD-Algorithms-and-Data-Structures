@@ -30,6 +30,16 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 - [Zad3](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex3_20180301 "Ex3_20180301") **[descriptive]**
 - [Zad4](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex4_20180301 "Ex4_20180301") 
 - [Zad5_dodatkowe](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem1/Ex5_20180301_extra "Ex5_20180301_extra") **[linked lists]** Reverses given linked list
+
+### 2nd
+
+
+### 3rd
+
+### 4th
+- [Zad1]
+- [Zad2](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Seminars/Sem4/Ex2_20180322 "Ex2_20180322") **[sorting]** Iterative quick sort algorithm using stack
+
 ## Collocuia
 - [Zad1_kol1]
 
