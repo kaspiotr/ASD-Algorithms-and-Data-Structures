@@ -1,0 +1,32 @@
+author: @kaspiotr (Piotr Kasprzyk)
+
+Prosze opisac (bez implementacji!) jak najszybszy algorytm, ktory otrzymuje na wejsciu pewien
+ciag n liter oraz liczbe k i wypisuje najczesciej powtarzajacy sie podciag dlugosci k (jesli ciagow
+mogacych stanowic rozwiazanie jest kilka, algorytm zwraca dowolny z nich). Mozna zalozyc, ze
+ciag sklada sie wylacznie z liter a i b.
+Na przyklad dla ciagu ababaaaabb oraz k = 3 rozwiazaniem jest zarowno ciag aba jak i ciag aaa, ktory
+powtarza sie dwa razy (to, ze te wystapienia na siebie nachodza nie jest istotne). Zaproponowany
+algorytm opisac, uzasadnic jego poprawnosc oraz oszacowac jego zlozonosc.
+
+Rozwiazanie:
+1) Dzielimy podany ciag wejsciowy na n-k+1 slow k-elementowych, np. dla ciagu wejsciowego ababaaaabb i k=3 dokonujemy
+   nastepujacego podzialu:
+   - aba
+   - bab
+   - aba
+   - baa
+   - aaa
+   - aaa
+   - aab
+   - abb
+   Zlozonosc tej operacji to (n-k+1)*k, czyli O(n*k).
+2) Uzyskane w ten sposob k-elementowe podciagi sortujemy radixSortem przechodzac od litery najbardziej na prawo
+   do litery najbardziej na lewo. Jako, ze ciagi moga sie skladac wylacznie z liter a i b do sortowania kazdej
+   z kolumn uzywamy countingSorta, ktory zlozonosc w tym wypadku wyniesie n-k+1, czyli O(n). Poniewaz do posortowania
+   mamy k kolumn, to sortujac je radixSortem, ktory wykorzystuje countingSorta uzyskamy zlozonosc (n-k+1)*k, czyli
+   O(n*k).
+3) Przegladamy wartosci posortowanej listy podciagow zapamietujac przy tym ciag, ktory powtorzyl sie dotychczas
+   najwiecej razy i zapamietujemy takze ilosc jego potworzen. Zlozonosc tej operacji po przegladnieciu calej
+   listy/tablicy, w ktorej przechowujemy k-elementowe podciagi wyniesie (n-k+1)*k (bo przegladam kazda z k liter
+   podciagow, ktorych jest n-k+1), czyli bedzie rzedu O(n*k).
+4) Zatem ostateczna zlozonosc przedstawionego algorytmu, to O(n) + O(n*k) + O(n*k), czyli O(n*k).

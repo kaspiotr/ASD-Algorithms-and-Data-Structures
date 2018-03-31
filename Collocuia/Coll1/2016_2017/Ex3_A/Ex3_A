@@ -1,0 +1,8 @@
+Zad.3, kol1, gr.A, 2016/2017
+Prosze opisac (bez implementacji!) jak najszybszy algorytm, ktory otrzymuje na wejsciu pewien
+ciag n liter oraz liczbe k i wypisuje najczesciej powtarzajacy sie podciag dlugosci k (jesli ciagow
+mogacych stanowic rozwiazanie jest kilka, algorytm zwraca dowolny z nich). Mozna zalozyc, ze
+ciag sklada sie wylacznie z liter a i b.
+Na przyklad dla ciagu ababaaaabb oraz k = 3 rozwiazaniem jest zarowno ciag aba, ktory
+powtarza sie dwa razy (to, ze te wystapienia na siebie nachodza nie jest istotne). Zaproponowany
+algorytm opisac, uzasadnic jego poprawnosc oraz oszacowac jego zlozonosc.
