@@ -47,7 +47,7 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 - [Zad1_kol1_2014_2015](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Collocuia/Coll1/2014_2015/Ex1 "Coll1/2014_2015/Ex1")
 - [Zad2_kol1_2014_2015](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Collocuia/Coll1/2014_2015/Ex2 "Coll1/2014_2015/Ex2")
 - [Zad3_kol1_2014_2015](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Collocuia/Coll1/2014_2015/Ex3 "Coll1/2014_2015/Ex3")
-- [Zad1_A_kol1_2015_2016](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Collocuia/Coll1/2015_2016/Ex1_A "Coll1/2015_2016/Ex1_A") 
+- [Zad1_A_kol1_2015_2016](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Collocuia/Coll1/2015_2016/Ex1_A "Coll1/2015_2016/Ex1_A") **[sorting]** Quick sort
 - [Zad2_A_kol1_2015_2016](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Collocuia/Coll1/2015_2016/Ex2_A "Coll1/2015_2016/Ex2_A")
 - [Zad3_A_kol1_2015_2016](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Collocuia/Coll1/2015_2016/Ex3_A "Coll1/2015_2016/Ex3_A")
 - [Zad1_A_kol1_2016_2017](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Collocuia/Coll1/2016_2017/Ex1_A "Coll1/2016_2017/Ex1_A") **[linked list]** Bucket sort
