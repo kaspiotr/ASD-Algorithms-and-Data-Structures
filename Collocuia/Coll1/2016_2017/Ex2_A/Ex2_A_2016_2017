@@ -1,0 +1,8 @@
+Zad.2 gr. A, kol1, 2016/2017
+Prosze zaimplementowac funkcje:
+int SumBetween(int T[], int from, int to, int n);
+Zadaniem tej funkcji jest obliczyc sume liczb z n elementowej tablicy T, ktore w posortowanej
+tablicy znajdowalyby sie na pozycjach o indeksach od from do to (wlacznie). Mozna przyjac, ze
+liczby w tablicy T sa parami rozne (ale nie mozna przyjmowac zadnego innego rozkladu danych).
+Zaimplementowana funkcja powinna być mozliwie jak najszybsza. Prosze oszacowac jej zlozonosc
+czasowa (oraz bardzo krotko uzasadnic to oszacowanie).

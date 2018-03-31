@@ -1,0 +1,3 @@
+Zad.1, kol1, 2014/2015
+Napisac funkcje: void sortString(string A[]); Funkcja sortuje tablice n stringow roznej
+dlugosci. Mozna zalozyć, ze stringi skladaja sie wylacznie z malych liter alfabetu lacinskiego.

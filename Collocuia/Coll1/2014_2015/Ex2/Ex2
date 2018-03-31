@@ -1,0 +1,7 @@
+Zad.2, kol1, 2014/2015
+Dane są następujące struktury:
+struct Node { Node* next; int val; };
+struct TwoLists { Node* even; Node* odd; };
+Napisać funkcję: TwoLists split(Node* list);
+Funkcja rozdziela listę na dwie: jedną zawierającą liczby parzyste i drugą zawierającą liczby
+nieparzyste. Listy nie zawierają wartowników.

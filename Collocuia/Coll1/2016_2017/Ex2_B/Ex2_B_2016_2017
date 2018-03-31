@@ -1,0 +1,5 @@
+Zad.2 gr. B, kol1, 2016/2017
+Prosze zaimplementowac funkcje algorytmiczna double AverageScore(double A[], int n, int lowest, int highest),
+ktora dostaje tablice double A[] rozmiaru n i dwa parametry: lowest i highest.
+Zadanie polega na obliczeniu sredniej wartosci w tablicy A[] z pominieciem lowest najmniejszych
+i highest najwiekszych elementow.
