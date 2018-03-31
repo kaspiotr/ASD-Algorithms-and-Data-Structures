@@ -1,0 +1,10 @@
+Zad.2, kol1, 2012/2013
+Prosze zaprojektowac strukture danych przechowujaca liczby i pozwalajaca na nastepujace
+operacje (zakladamy, ze wszystkie liczby umieszczane w strukturze sa rozne):
+Init(n). Tworzy zadana strukture danych zdolna pomiescic maksymalnie n liczb.
+Insert(x). Dodaje do struktury liczbe x.
+RemoveMin() Znajduje najmniejsza liczbe w strukturze, usuwa ja i zwraca jej wartosc.
+RemoveMax() Znajduje najwieksza liczbe w strukturze, usuwa ja i zwraca jej wartosc.
+Kazda z operacji powinna miec zlozonosc O(log n, gdzie n to ilosc liczb znajdujacych się obecnie
+w strukturze. W tym zadaniu nie trzeba implementowac podanych operacji, a jedynie
+przekonujaco opisać jak powinny byc zrealizowane i dlaczego maja wymagana zlozonosc.

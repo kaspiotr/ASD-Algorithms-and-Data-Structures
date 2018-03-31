@@ -1,0 +1,5 @@
+Zad.3, kol1, 2012/2013
+Prosze napisac funkcje bool possible( char* u, char* v, char* w ), ktora zwraca prawde
+jesli z liter slow u i v da sie ulozyc slowo w (nie jest konieczne wykorzystanie wszystkich liter)
+oraz falsz w przeciwnym wypadku. Mozna zalozyc, ze w i v skladaja sie wylacznie z malych liter
+alfabetu lacinskiego. Prosze krotko uzasadnic wybor zaimplementowanego algorytmu.
