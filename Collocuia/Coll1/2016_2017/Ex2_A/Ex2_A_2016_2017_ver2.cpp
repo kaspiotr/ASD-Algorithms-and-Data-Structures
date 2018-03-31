@@ -2,14 +2,7 @@
 // Created by Karolina on 31.03.2018.
 //
 
-int main(){
-    //Zadanie numer 2
-    cout<<"Suma pomiędzy kolejnymi wartosciami w tablicy"<<endl;
-    int T1[4]={10, 7, 6, 15};
-    //cout<<select(T1,0,3,1);
-    cout<<SumBetween(T1,3,4,4);
-    return 0;
-}
+
 //2. Proszę zaimplementować funkcję: int SumBetween(int T[], int from, int to, int n);
 // Zadaniem tej funkcji jest obliczyć sumę liczb z n elementowej tablicy T,
 // które w posortowanej tablicy znajdywałyby się na pozycjach o indeksach od from do to (włącznie).
@@ -49,4 +42,13 @@ int SumBetween(int T[], int from, int to, int n){
         sum += T[i];
     return sum;
 
+}
+
+int main(){
+    //Zadanie numer 2
+    cout<<"Suma pomiędzy kolejnymi wartosciami w tablicy"<<endl;
+    int T1[4]={10, 7, 6, 15};
+    //cout<<select(T1,0,3,1);
+    cout<<SumBetween(T1,3,4,4);
+    return 0;
 }
