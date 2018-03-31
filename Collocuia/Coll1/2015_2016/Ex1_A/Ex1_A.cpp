@@ -109,13 +109,14 @@ void SumSort(int A[], int B[], int n) {
     QuickSort(sums, 0, n - 1);
 
 //    printDivSumTab(sums, 3);
-
     int idxB = 0;
     for (int i = 0; i < n; i++) {
         for (int j = sums[i].idx * n; j < (sums[i].idx + 1) * n; j++) {
             B[idxB++] = A[j];
         }
     }
+
+    delete [] sums;
 }
 
 int main() {
