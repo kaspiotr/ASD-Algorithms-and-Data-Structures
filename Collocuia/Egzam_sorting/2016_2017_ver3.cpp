@@ -9,7 +9,7 @@
 #include<iostream>
 using namespace std;
 
-
+//nie działa do końca poprawie niestety
 
 //void swap(double x, double y){
 //    double tmp = x;
