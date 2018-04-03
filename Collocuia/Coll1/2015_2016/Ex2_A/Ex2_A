@@ -1,0 +1,7 @@
+Zad.2, gr. A, kol1, 2015/2016
+Dana jest n elementowa tablica A zawierajaca liczby naturalne (potencjalnie bardzo duze).
+Wiadomo, ze tablica A powstala w dwoch krokach. Najpierw wygenerowano losowo (z nieznanym
+rozkladem) n roznych liczb nieparzystych i posortowano je rosnaco. Nastepnie wybrano losowo
+[log n] elementow powstalej tablicy i zamieniono je na losowo wybrane liczby parzyste. Prosze
+zaproponowac (bez implementacji!) algorytm sortowania tak powstalych danych. Algorytm
+powinien być mozliwie jak najszybszy. Prosze oszacowac i podac jego zlozonosc czasowa.
