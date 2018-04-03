@@ -5,3 +5,19 @@ rozkladem) n roznych liczb nieparzystych i posortowano je rosnaco. Nastepnie wyb
 [log n] elementow powstalej tablicy i zamieniono je na losowo wybrane liczby parzyste. Prosze
 zaproponowac (bez implementacji!) algorytm sortowania tak powstalych danych. Algorytm
 powinien być mozliwie jak najszybszy. Prosze oszacowac i podac jego zlozonosc czasowa.
+
+//2. Dana jest n elementowa tablica A zawierająca liczby naturalne (potencjalnie bardzo duże).
+//Wiadomo, że tablica A powstała w dwóch krokach.
+//Najpierw wygenerowano losowo (z nieznanym rozkładem) n różnych liczn nieparzystych i
+//        posortowano je rosnąco. Następnie wybrano losowo dlog ne elementów powstałej
+//        tablicy i zamieniono je na losowo wybrane liczby parzyste. Proszę zaproponować (bez implementacji!)
+//algorytm sortowania tak powstałych danych. Algorytm powinien być możliwie jak najszybszy.
+//Proszę oszacować i podać jego złożoność czasową.
+//
+//Pomysł
+
+//Dzielimy tablice na dwie, z liczbami parzystymi i nieparzystymi - złożoność O(n);
+//Wykonujemy funkcje MergeSort dla tablicy z wartościami parzystymi O((logn)*log(logn))
+//Wykonujemy Merge dla obu tablic - zlozonosc O(n)
+//Suma: O(2n)+ O((logn)*log(logn)) - NIE WIEM CZY DA SIĘ SKRÓCIĆ
+

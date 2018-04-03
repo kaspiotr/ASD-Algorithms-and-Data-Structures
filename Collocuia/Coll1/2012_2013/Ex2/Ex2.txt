@@ -1,0 +1,5 @@
+// ta struktura byłaby podobna do drzewa binarnego, którego wysokość wynosi logn
+//dlatego inicializowanie drzewa, operacja insert będą wynosiły logn
+//jeżelu będziemy chcieli odnaleść max lub min ,przejdziemy do najbardziej na prawo,
+//najdalszego prawego syna,lub lewo..,
+//czyli do max wysokości drzewa czyli logn+ naprawa drzewa logn
