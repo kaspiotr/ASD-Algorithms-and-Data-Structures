@@ -3,5 +3,5 @@ project(ASD-Algorithms-and-Data-Structures)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Seminars_older/Sem1_Ex2_20170301/Sem1_Ex2_20170301.cpp)
+set(SOURCE_FILES Useful_algorithms_and_code_snippets/Linked_list_quick_sort/Linked_list_quick_sort.cpp)
 add_executable(ASD-Algorithms-and-Data-Structures ${SOURCE_FILES})
