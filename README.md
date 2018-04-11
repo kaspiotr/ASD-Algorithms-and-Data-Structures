@@ -8,10 +8,10 @@ English version below
 
 ### Cwiczenia nr 7
 #### Zadania obowiazkowe
-- [Zad1] **[skiplista]** Wstawianie elementu do skiplisty
-- [Zad2] **[skiplista]** Usuwanie elementu o podanym kluczu ze skiplisty
-- [Zad3] **[skiplista]** Scalanie dwoch skiplist
-- [Zad4] **[tablice z haszowaniem]** Wstawianie i usuwanie elementu z tablicy rozproszonej z adresowaniem otwartym
+- [Zad1](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Zadania_na_cwiczenia/Cwiczenia7/Zadania_obowiazkowe/Zad1_wstawianie_do_skiplisty "Zad1_wstawianie_do_skiplisty") **[skiplista]** Wstawianie elementu do skiplisty
+- [Zad2](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Zadania_na_cwiczenia/Cwiczenia7/Zadania_obowiazkowe/Zad2_usuwanie_z_skiplisty "Zad2_usuwanie_z_skiplisty") **[skiplista]** Usuwanie elementu o podanym kluczu ze skiplisty
+- [Zad3](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Zadania_na_cwiczenia/Cwiczenia7/Zadania_obowiazkowe/Zad3_scalanie_dwoch_skiplist "Zad3_scalanie_dwoch_skiplist") **[skiplista]** Scalanie dwoch skiplist
+- [Zad4](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Zadania_na_cwiczenia/Cwiczenia7/Zadania_obowiazkowe/Zad4_wstawianie_i_usuwanie_el_z_tab_rozp_z_adr_otw "Zad4_wstawianie_i_usuwanie_el_z_tab_rozp_z_adr_otw") **[tablice z haszowaniem]** Wstawianie i usuwanie elementu z tablicy rozproszonej z adresowaniem otwartym
 #### Zadanie z poprzednich lat
 
 
