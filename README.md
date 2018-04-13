@@ -4,9 +4,22 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 
 English version below
 
+## Przydatne algorytmy i fragmenty kodu
+### Sortowania
+- [Sortowanie przez wstawianie (insertion sort) na tablicy](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Useful_algorithms_and_code_snippets/Array_insertion_sort "Array_insertion_sort")
+- [Sortowanie przez wstawianie (insertion sort) na liście jednokierunkowej](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/blob/master/Useful_algorithms_and_code_snippets/Linked_list_insertion_sort "Linked_list_insertion_sort")
+- [Sortowanie przez scalanie (merge sort) na tablicy](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Useful_algorithms_and_code_snippets/Array_merge_sort "Array_merge_sort")
+- [Sortowanie szybkie (quick sort) na liście jednokierunkowej](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Useful_algorithms_and_code_snippets/Linked_list_quick_sort "Linked_list_quick_sort")
+
+### Struktury danych
+
+### Grafy
+
+### Programowanie dynamiczne
+
 ## Zadanie do wykonania przed cwiczeniami
 
-### Cwiczenia nr 7
+### Ćwiczenia nr 7
 #### Zadania obowiazkowe
 - [Zad1](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Zadania_na_cwiczenia/Cwiczenia7/Zadania_obowiazkowe/Zad1_wstawianie_do_skiplisty "Zad1_wstawianie_do_skiplisty") **[skiplista]** Wstawianie elementu do skiplisty
 - [Zad2](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Zadania_na_cwiczenia/Cwiczenia7/Zadania_obowiazkowe/Zad2_usuwanie_z_skiplisty "Zad2_usuwanie_z_skiplisty") **[skiplista]** Usuwanie elementu o podanym kluczu ze skiplisty
@@ -14,6 +27,11 @@ English version below
 - [Zad4](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Zadania_na_cwiczenia/Cwiczenia7/Zadania_obowiazkowe/Zad4_wstawianie_i_usuwanie_el_z_tab_rozp_z_adr_otw "Zad4_wstawianie_i_usuwanie_el_z_tab_rozp_z_adr_otw") **[tablice z haszowaniem]** Wstawianie i usuwanie elementu z tablicy rozproszonej z adresowaniem otwartym
 #### Zadanie z poprzednich lat
 
+### Ćwiczenia nr 8
+#### Zadania obowiązkowe
+Jeszcze nie podano
+
+#### Zadania z poprzednich lat
 
 ## Useful algorithms and code snippets
 - [Insertion sort algorithm on an array](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Useful_algorithms_and_code_snippets/Array_insertion_sort "Array_insertion_sort")
