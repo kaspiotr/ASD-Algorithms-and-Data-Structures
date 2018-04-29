@@ -1,0 +1,5 @@
+Egzamin, 1, 26.06.2015, gr. B
+Zad.1.2 [4 pkt]
+Drzewo BST jest opisane przez strukturę struct BST{BST *left, *right; int value};
+Proszę zaimplementować funkcję double average(BST *T), która oblicza średnią wartość
+elementów w drzewie T.
