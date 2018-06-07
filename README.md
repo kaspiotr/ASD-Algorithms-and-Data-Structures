@@ -34,6 +34,12 @@ Jeszcze nie podano
 
 #### Zadania z poprzednich lat
 
+### Ćwiczenia nr 12
+#### Zadania obowiązkowe
+- [Zad1](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/blob/master/Zadania_na_cwiczenia/Cwiczenia12/Znajdowanie_mostow_w_grafie_rep_macierzowa.cpp) Znajdowanie mostow w grafie (rep. macierzowa)
+
+#### Zadania z poprzednich lat
+
 # English version
 
 ## Useful algorithms and code snippets
@@ -96,4 +102,5 @@ Jeszcze nie podano
 ## Exams
 - [Zad1_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exams/Exam3_Ex1_20170913 "Exam3_Ex1_20170913") **[sorting]** Finds largest number of intersecting divisions
 - [Zad2_egz3_20170913](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exams/Exam3_Ex2_20170913 "Exam3_Ex2_20170913") **[descriptive]** Algorithm that checks if two hash tables have the same elements
-- [Zad1.2_egz1_20150626](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exams/Exam1_B_Ex1_2_20150626 "Exam1_B_Ex1_2_20150626") **[BST]** Finds average of nodes values in a given BST tree
+- [Zad1.2_egz1_A_20150626]()
+- [Zad1.2_egz1_B_20150626](https://github.com/kaspiotr/ASD-Algorithms-and-Data-Structures/tree/master/Exams/Exam1_B_Ex1_2_20150626 "Exam1_B_Ex1_2_20150626") **[BST]** Finds average of nodes values in a given BST tree
