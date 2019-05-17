@@ -4,7 +4,7 @@ Some exercises from DAS (Data Structures and Algorithms) solved in C++
 
 If you find this repository useful and want me to develop it further leave a star
 
-Jeśli to repozytorium jest przydatne i chcesz abym rozwijał je dalej to zostaw gwiazdkę
+Jeśli to repozytorium jest przydatne i chcesz abym rozwijał je dalej, to zostaw gwiazdkę
 
 # Polish version
 English version below
